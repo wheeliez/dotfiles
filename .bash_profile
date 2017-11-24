@@ -52,6 +52,3 @@ fi
 
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 #export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-#export SENTRY_AUTH_TOKEN=5a1a39f829ce46c3a1569d348bf7431bb64c5557d4b34b8dbdb2370217e93b59
-#export SENTRY_ORG=poka-inc
