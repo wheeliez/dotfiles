@@ -41,9 +41,8 @@ fi
 ############################################
 # Ruby Gem installationn
 ############################################
-#export GEM_HOME=$HOME/.gem
-#export PATH=$GEM_HOME/bin:$PATHp
-
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
@@ -52,3 +51,16 @@ fi
 
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 #export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+
+############################################
+# Sentry Configs
+############################################
+export SENTRY_AUTH_TOKEN=0c29dd0634a2479fb104393fc8609c382aec07cdf7264dce9fd58ae31079e81d
+export SENTRY_ORG=poka-inc
+
+############################################
+# Lokalize Configs
+############################################
+export LOKALISE_API_TOKEN=b37990a7dcebfe473c6699e3dc7b7bb31e73507d
+

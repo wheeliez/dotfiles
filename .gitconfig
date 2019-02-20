@@ -1,0 +1,22 @@
+[user]
+    name = Mathieu Dargis
+    email = mdargis@poka.io
+    editor = vim
+    
+[color]
+    ui = true
+
+[alias]
+    lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    st = status -s
+    co = checkout
+    br = branch
+    fpr = fetch --prune
+    stash-all = stash save --include-untracked
+
+[merge]
+	tool = vimdiff
+
+[push]
+	default = current
+    followTags = true
